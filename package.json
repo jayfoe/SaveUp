@@ -1,0 +1,37 @@
+{
+  "name": "saveup",
+  "version": "1.0.0",
+  "description": "Personal project to learn react and redux",
+  "main": "./src/client.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayfoe/saveup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayfoe/saveup/issues"
+  },
+  "homepage": "https://github.com/jayfoe/saveup#readme",
+  "dependencies": {
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "babel-register": "^6.24.0",
+    "concurrently": "^3.4.0",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-promise": "^0.5.3",
+    "webpack": "^2.3.2"
+  }
+}
