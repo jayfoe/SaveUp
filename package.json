@@ -4,7 +4,8 @@
   "description": "Personal project to learn react and redux",
   "main": "./src/client.js",
   "scripts": {
-    "webpack-watch": "webpack -w",
+    "nodemon": "nodemon --watch server --watch config --watch bin ./bin/www",
+    "webpack-watch": "./node_modules/webpack/bin/webpack.js -w",
     "express-server": "node ./server",
     "start": "concurrently --kill-others \"npm run webpack-watch\" \"npm run express-server\"",
     "test": "echo \"Error: no test specified\" && exit 1"
