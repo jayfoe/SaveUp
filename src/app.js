@@ -6,7 +6,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <label>
-          Monthly Savings:
+          Field:
           <input />
         </label>
       </div>
